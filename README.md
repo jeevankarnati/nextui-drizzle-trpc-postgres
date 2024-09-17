@@ -6,7 +6,15 @@ First, install the dependencies:
 bun install
 ```
 
-Then, run the development server:
+Add database credentials in .env
+Generate and push tables to database:
+
+```bash
+bun db:generate
+bun db:push
+```
+
+Now, run the development server:
 
 ```bash
 bun dev
